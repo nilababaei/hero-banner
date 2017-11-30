@@ -7,3 +7,44 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  font-weight: bold;
+
+  bottom: 6rem;
+}
+
+p {
+  font-size: 2rem;
+  color: black;
+  font-style: italic;
+
+  bottom: 0;
+}
+
+p, h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 50em;
+}
+
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
