@@ -18,27 +18,21 @@ body {
   width: 100%;
 }
 
-div h2 {
+h2 {
   font-size: 4rem;
   color: white;
-  font-weight: bold;
-
-  bottom: 6rem;
+  margin-bottom: 0;
 }
 
-div p {
+span {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+p {
   font-size: 2rem;
   color: black;
   font-style: italic;
-
-  bottom: 0;
-}
-
-p, h2 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 50em;
+  margin: 0;
 }
 
 .banner {
@@ -47,6 +41,14 @@ p, h2 {
   overflow: hidden;
 }
 
-span {
-  background-color: rgba(0, 0, 0, .5);
+.banner-content {
+  position: absolute;
+  max-width: 50em;
+  width: 100%;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding-left: 1em;
+  padding-right: 1em;
 }
